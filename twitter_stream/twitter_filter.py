@@ -24,8 +24,8 @@ class StreamListener(tweepy.StreamListener):
             sent = blob.sentiment
             polarity = sent.polarity
             subjectivity = sent.subjectivity
-            # print(blob)
-            # print(sent)
+            print(blob)
+            print(sent)
             # print(polarity)
             # print(subjectivity)
             
